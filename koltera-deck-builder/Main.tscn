@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://d3nk5gti6xt1p"]
+
+[ext_resource type="Script" uid="uid://ba5txunbhxgi6" path="res://main.gd" id="1_uu6xs"]
+[ext_resource type="Script" uid="uid://dx1v66fsmjfnf" path="res://deck_manager.gd" id="2_r0du0"]
+
+[node name="Main" type="Control" unique_id=298935553]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_uu6xs")
+
+[node name="DeckManager" type="Node" parent="." unique_id=327589639]
+script = ExtResource("2_r0du0")
+
+[node name="GameUI" type="Control" parent="." unique_id=1786562750]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ResourceLabel" type="Label" parent="GameUI" unique_id=301193005]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Hand" type="HBoxContainer" parent="GameUI" unique_id=1346409408]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PlayZone" type="Control" parent="GameUI" unique_id=1025951308]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_bottom = 40.0
+
+[node name="DiscardZone" type="Control" parent="GameUI" unique_id=1861415624]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="DrawPileMaker" type="Node" parent="." unique_id=479743063]

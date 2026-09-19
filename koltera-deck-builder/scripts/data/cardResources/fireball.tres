@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://ch8m5oxa700kw"]
+
+[ext_resource type="Script" uid="uid://dsk8c4304aep3" path="res://cards/CardData.gd" id="1_snamw"]
+
+[resource]
+script = ExtResource("1_snamw")
+card_name = "Fireball"
+cost = 2
+description = "Here is a sample desciption"
+metadata/_custom_type_script = "uid://dsk8c4304aep3"

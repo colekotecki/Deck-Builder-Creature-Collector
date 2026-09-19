@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://dny7mkjtb2dka"]
+
+[ext_resource type="Script" uid="uid://cw3axisoj84fy" path="res://cards/card.gd" id="1_kikvd"]
+
+[node name="Card" type="Control" unique_id=1304255684]
+custom_minimum_size = Vector2(160, 120)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 160.0
+offset_bottom = 120.0
+script = ExtResource("1_kikvd")
+
+[node name="Background" type="Panel" parent="." unique_id=602027609]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="IconRect" type="TextureRect" parent="." unique_id=1210626913]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="NameLabel" type="Label" parent="." unique_id=1209626774]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="CostLabel" type="Label" parent="." unique_id=2018045180]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="DescriptionLabel" type="Label" parent="." unique_id=441468074]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
